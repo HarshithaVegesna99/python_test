@@ -31,10 +31,6 @@ def test_sub_positive():
 def test_sub_zero():
     assert sub_numbers(1,0) == 1
 
-# Check with negative numbers
-def test_sub_negative():
-    assert add_numbers(100,-4) == 104
-
 # Now check if it correctly produces error when provided so
 def test_sub_string_expect_exception():
     with pytest.raises(TypeError):
